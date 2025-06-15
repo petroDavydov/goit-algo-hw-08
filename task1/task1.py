@@ -23,7 +23,8 @@ def min_cost_connect_cable(cable_length):
         print(
             f"Об'єнюємо кабелі {Fore.BLUE}{first} та {Fore.BLUE}{second} получаємо витрати {Fore.LIGHTYELLOW_EX}{cost}. \n Загальні витрати --> {Fore.RED}{total_cost}{Style.RESET_ALL}")
 
-        print(f"Стан купи на зараз: {Fore.LIGHTCYAN_EX}{cable_length}{Style.RESET_ALL}")
+        print(
+            f"Стан купи на зараз: {Fore.LIGHTCYAN_EX}{cable_length}{Style.RESET_ALL}")
 
     return total_cost
 
